@@ -1,9 +1,12 @@
 ---
 
 # VCenter Stuff
-vcenter_username: administrator@vmsso.local
+vcenter_username: administrator@matthome.sso
 validate_certs: false
-vcenter_host: 192.168.30.3
-datacenter: ourdc
-cluster: ourcluster
-datastore: ourdatastore
+vcenter_host: 192.168.1.22
+datacenter: homefarm
+cluster: homefarm_cluster
+datastore: syn
+vmtemplate: t-centos7
+folder: /ansiblefest2018
+port_grp: "VM Network"
